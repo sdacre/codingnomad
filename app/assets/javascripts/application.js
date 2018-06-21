@@ -12,12 +12,12 @@
 //
 //= require rails-ujs
 //= require activestorage
-//= require turbolinks
-//= require_tree .
 //= require jquery
 //= require jquery_ujs
-//= require bootstrap
-//= require home
+//= require bootstrap-sprockets
+//= require turbolinks
+//= require_tree .
+
 
 
 // Call & init
@@ -98,5 +98,9 @@ function drags(dragElement, resizeElement, container) {
     resizeElement.removeClass('resizable');
   });
 }
+
+
+
+
 
 

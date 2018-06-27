@@ -1,84 +1,4 @@
-.ba-container {
-  width: 100%;
-}
 
-.ba-slider {
-  position: relative;
-  overflow: hidden;
-}
-
-.ba-slider img {
-  width: 100%;
-  display: block;
-}
-
-.resize {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 50%;
-  overflow: hidden;
-}
-
-.handle {
-  /* Thin line seperator */
-  position: absolute;
-  left: 50%;
-  top: 0;
-  bottom: 0;
-  width: 4px;
-  margin-left: -2px;
-  background: rgba(0, 0, 0, 0);
-  cursor: ew-resize;
-}
-
-.handle:after {
-  /* Big green knob  */
-  position: absolute;
-  top: 50%;
-  width: 60px;
-  height: 60px;
-  margin: -32px 0 0 -32px;
-  content: '\21ff';
-  color: #f3c51e;
-  /* a dark green */
-  font-size: 48px;
-  text-align: center;
-  line-height: 64px;
-  background: #ffffff;
-  /* @darker green of gradient */
-  border: .5px solid #f3c51e;
-  /* a green */
-  border-radius: 50%;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0), inset 0 2px 0 rgba(251, 216, 38, 0), inset 0 60px 50px -30px #FED99B;
-  /* lighter green in gradient */
-}
-
-.draggable:after {
-  width: 48px;
-  height: 48px;
-  margin: -24px 0 0 -24px;
-  line-height: 48px;
-  font-size: 30px;
-}
-
-/*.img-comp-slider {
-  position: absolute;
-  z-index: 9;
-  cursor: ew-resize;
-
-  width: 40px;
-  height: 40px;
-  background-color: #2196F3;
-  opacity: 0.7;
-  border-radius: 50%;
-}*/
-
-.navbar-collapse {
-  float: right;
-}
 
 * {
   font-family: 'EB Garamond', serif;
@@ -86,53 +6,49 @@
   }
 
 
-.navbar {
-  background:transparent;
-}
 
-/*makes big about row*/
+/* colors rows */
 
-.row-about {
+.bg-orange {
   background-color: #FED99B;
-  padding-bottom: 300px;
 }
 
-.about-title {
-  font-size: 120px;
-}
-
-/*makes big work row*/
-
-.work-title {
-float: right;
-font-size: 120px;
-}
-
-.row-work {
-  padding-bottom: 300px;
-}
-
-
-/*makes big contact row*/
-.contact-title {
-  font-size: 120px;
-}
-
-.row-contact{
+.bg-blue{
   background-color: #D6EFFF;
-  padding-bottom: 300px;
+}
+
+.title {
+  font-size: 120px;
+}
+
+.banner-text {
+  font-size: 100px;
 }
 
 
-
-
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: white;
-   color: white;
-   text-align: center;
+/*allows for bootstrap scrollspy*/
+body {
+  position: relative;
 }
 
+
+.logo {
+    font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+.flower img {
+max-width:100%;
+max-height:100%;
+
+}

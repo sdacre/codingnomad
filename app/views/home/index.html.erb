@@ -17,7 +17,6 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#work">Work</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -27,26 +26,77 @@
 </nav>
 
 
+
 <%= stylesheet_link_tag 'style'%>
-<div id="particles-js"></div>
+<div id="particles-js">
+</div>
 <h1 class="banner">Hi, my Name is Stephanie.<br>
 I build websites.</h1>
 <%= javascript_include_tag 'particles', 'app'%>
 
-<div class="container-fluid bg-orange">
-  <div class="row row-about" id="about">
-    <div class="col-sm-6">
-      <h1 class="title">About</h1>
-      <h3 class="about-content">
-      </h3>
+<div class="container-fluid bg-white">
+  <div class="section" id="about">
+    <div class="col-sm-12">
+    <h1 class="title animated slideInRight">About</h1>
     </div>
-    <div class="col-sm-6"> something will go here
+    <div class="section">
+      <div class="col-sm-8">
+      Photo of myself goes here, (cartoon), and a little writeup
+      </div>
+
+      <div class="col-sm-4" id="center">
+            <h1>Stack</h1>
+            <div class="skillBox">
+              <p>HTML5</p>
+              <p>90%</p>
+              <div class="skill">
+                <div class="skill_level" style="width: 90%">
+                </div>
+              </div>
+            </div>
+
+            <div class="skillBox">
+              <p>CSS3</p>
+              <p>70%</p>
+              <div class="skill">
+                <div class="skill_level" style="width: 70%">
+                </div>
+              </div>
+            </div>
+
+            <div class="skillBox">
+              <p>Javascript & Jquery</p>
+              <p>60%</p>
+              <div class="skill">
+                <div class="skill_level" style="width: 60%">
+                </div>
+              </div>
+            </div>
+
+            <div class="skillBox">
+              <p>Ruby on Rails</p>
+              <p>80%</p>
+              <div class="skill">
+                <div class="skill_level" style="width: 80%">
+                </div>
+              </div>
+            </div>
+            <div class="skillBox">
+              <p>React</p>
+              <p>50%</p>
+              <div class="skill">
+                <div class="skill_level" style="width: 50%">
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="container-fluid">
-  <div class="row" id="work">
+<div class="container-fluid bg-orange">
+  <div class="section" id="work">
     <div class="col-sm-4">
     <h1 class="title">Work</h1>
       <!-- <span class="glyphicon glyphicon-globe logo"></span>  -->
@@ -57,7 +107,7 @@ I build websites.</h1>
 </div>
 
 <div class="container-fluid bg-blue">
-  <div class="row" id="contact">
+  <div class="section" id="contact">
     <div class="col-sm-4">
     <h1 class="title">Contact</h1>
     </div>

@@ -27,21 +27,11 @@
 </nav>
 
 
-
-
-<div class="container-fluid bg-black">
-  <div class="row">
-    <div class="col-sm-4 banner-text">hi, my name is steph.
-    </div>
-    <div class="col-md-4 flower">
-      <img id="flower" src="/flower.png" onmouseover="hover(this);" onmouseout="unhover(this);" />
-      </div>
-    <div class="col-sm-4 banner-text">i build websites.
-  </div>
-</div>
-
-<div class="container">
-</div>
+<%= stylesheet_link_tag 'style'%>
+<div id="particles-js"></div>
+<h1 class="banner">Hi, my Name is Stephanie.<br>
+I build websites.</h1>
+<%= javascript_include_tag 'particles', 'app'%>
 
 <div class="container-fluid bg-orange">
   <div class="row row-about" id="about">
@@ -75,5 +65,11 @@
     </div>
   </div>
 </div>
+
+
+
+
+
+
 
 

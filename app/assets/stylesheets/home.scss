@@ -21,36 +21,12 @@
   font-size: 120px;
 }
 
-.banner-text {
-  font-size: 60px;
-  text-align: center;
-  padding-top: 180px;
-
-}
-
-
 /*allows for bootstrap scrollspy*/
 body {
   position: relative;
 }
 
 
-.logo {
-    font-size: 200px;
-}
-@media screen and (max-width: 768px) {
-    .col-sm-4 {
-        text-align: center;
-        margin: 25px 0;
-    }
-}
-
-.flower img {
-max-width:100%;
-max-height:100%;
-padding-bottom: 100px;
-
-}
 
 .bg-black {
   padding-top: 150px;
@@ -58,6 +34,13 @@ padding-bottom: 100px;
 }
 
 
-
-
-
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'EB Garamond', serif;
+}

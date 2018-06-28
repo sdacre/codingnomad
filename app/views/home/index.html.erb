@@ -2,22 +2,41 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
-  <nav class="navbar navbar-inverse navbar-fixed-top collapse navbar-collapse">
-    <ul class="nav navbar-nav">
-      <li><a href="#about">About</a></li>
-      <li><a href="#work">Work</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
 
-<div class="container-fluid bg-white">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <span class="sr-only">Toggle Nav</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar""></span>
+      </button>
+      <a class="navbar-brand" href="#">Stephanie Dacre</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+<div class="container-fluid bg-black">
   <div class="row">
-    <div class="col-sm-4 banner-text center"> something will go here
+    <div class="col-sm-4 banner-text">hi, my name is steph.
     </div>
     <div class="col-md-4 flower">
-      <img id="flower" src="/flower.jpeg" onmouseover="hover(this);" onmouseout="unhover(this);" />
+      <img id="flower" src="/flower.png" onmouseover="hover(this);" onmouseout="unhover(this);" />
       </div>
-    <div class="col-sm-4 banner-text center"> something will go here
+    <div class="col-sm-4 banner-text">i build websites.
   </div>
 </div>
 

@@ -22,11 +22,11 @@
 
 
 function hover(element) {
-  element.setAttribute('src', '/code-flower.jpeg');
+  element.setAttribute('src', '/code-flower.png');
 }
 
 function unhover(element) {
-  element.setAttribute('src', '/flower.jpeg');
+  element.setAttribute('src', '/flower.png');
 }
 
 

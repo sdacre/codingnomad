@@ -34,26 +34,24 @@
 I build websites.</h1>
 <%= javascript_include_tag 'particles', 'app'%>
 
-<div class="container-fluid bg-white">
-  <div class="section" id="about">
-    <h1 class="title animated slideInRight">About<br><span class="glyphicon glyphicon-minus"></span></h1>
 
-  </div>
-
-  <div class="section">
-    <div class="col-sm-1">
+<div class ="container-fluid bg-white">
+  <h1 class="title animated slideInRight about">About<br><span class="glyphicon glyphicon-minus"></span></h1>
+  <div class="row">
+   <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1">
     </div>
-    <div class="col-sm-4">
-        <%= image_tag ("codinphoto.png"), :class => "profile"%>
-    <span class="profile-text"><span class="glyphicon glyphicon-arrow-right"></span>I'm a full stack web developer located in Victoria BC.<br><br>
-    <span class="glyphicon glyphicon-arrow-right"></span>I have a passion for UX/UI elements & spend most of my time learning front-end skills. <br><br>
-    <span class="glyphicon glyphicon-arrow-right"></span>I'm currently looking for a mentor, a full time position, or an internship in a growth centric company.<br><br>
-    <span class="glyphicon glyphicon-arrow-right"></span>In the meantime, I'm freelancing! Lets create something together.
-    </span>
+    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
+    <%= image_tag ("codinphoto.png"), :class => "profile"%>
     </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 profile-text">
+      <span class="glyphicon glyphicon-arrow-right"></span>I'm a full stack web developer located in Victoria BC.<br><br>
+      <span class="glyphicon glyphicon-arrow-right"></span> I <span class="glyphicon glyphicon-heart"></span> Ruby on Rails, & UX/UI.<br><br>
+      <span class="glyphicon glyphicon-arrow-right"></span> I <span class="glyphicon glyphicon-heart"></span> running, cats, plants & early mornings with coffee.<br><br>
+      <span class="glyphicon glyphicon-arrow-right"></span>I'm currently looking for a full time position<br> in a growth centric company.<br><br>
+      <span class="glyphicon glyphicon-arrow-right"></span>In the meantime, I'm freelancing! <li><a href="#contact">Lets create something together.</a></li>
     </div>
 
-    <div class="col-sm-4" id="center">
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" id="center">
       <h1>Stack</h1>
       <div class="skillBox">
         <p>HTML5</p>
@@ -94,8 +92,12 @@ I build websites.</h1>
             <div class="skill_level" style="width: 50%">
             </div>
         </div>
-      </div>
+      </div> 
     </div>
+    <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1">
+    </div>
+
+
   </div>
-</div> <!-- end of container -->
+</div>
 

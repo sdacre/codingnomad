@@ -19,7 +19,7 @@
       <ul class="nav navbar-nav">
         <li><a href="#about">About</a></li>
         <li><a href="#work">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#connect">Connect</a></li>
       </ul>
     </div>
   </div>
@@ -35,29 +35,29 @@ I build websites.</h1>
 <%= javascript_include_tag 'particles', 'app'%>
 
 
-<div class ="container-fluid bg-white">
-  <h1 class="title animated slideInRight about">About<br><span class="glyphicon glyphicon-minus"></span></h1>
+<div class ="container-fluid bg-white" id="about">
+  <h1 class="title animated slideInRight about">About<br><span class="glyphicon glyphicon-minus"></span><br>
+  <%= image_tag ("codinphoto.png"), :class => "profile icon"%></h1>
   <div class="row">
-   <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1">
+   <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1 col-xl-1">
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-    <%= image_tag ("codinphoto.png"), :class => "profile"%>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 profile-text">
-      <span class="glyphicon glyphicon-arrow-right"></span>I'm a full stack web developer located in Victoria BC.<br><br>
-      <span class="glyphicon glyphicon-arrow-right"></span> I <span class="glyphicon glyphicon-heart"></span> Ruby on Rails, & UX/UI.<br><br>
-      <span class="glyphicon glyphicon-arrow-right"></span> I <span class="glyphicon glyphicon-heart"></span> running, cats, plants & early mornings with coffee.<br><br>
-      <span class="glyphicon glyphicon-arrow-right"></span>I'm currently looking for a full time position<br> in a growth centric company.<br><br>
-      <span class="glyphicon glyphicon-arrow-right"></span>In the meantime, I'm freelancing! <li><a href="#contact">Lets create something together.</a></li>
+    <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5 col-xl-5 profile-text">
+      <p class="profile-title icon">Me</p>
+      <span class="glyphicon glyphicon-menu-right"></span><span class="underline--magical">  I'm a full stack web developer located in Victoria BC.<br></span>
+      <span class="glyphicon glyphicon-menu-right"></span><span class="underline--magical">  I love Ruby on Rails, & UX/UI.<br></span>
+      <span class="glyphicon glyphicon-menu-right"></span><span class="underline--magical">  I also love running, cats, plants & coffee.<br></span>
+      <span class="glyphicon glyphicon-menu-right"></span><span class="underline--magical">  I'm currently looking for a full time position in a growth centric company.<br><br></span>
+      <span class="glyphicon glyphicon-heart-empty"></span><span class="underline--magical">  In the meantime, I'm freelancing!<br><li><a href="#contact">Lets create something together.</a></li><br></span>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" id="center">
+
+    <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5 col-xl-5 icon" id="center">
       <h1>Stack</h1>
       <div class="skillBox">
         <p>HTML5</p>
         <p>90%</p>
           <div class="skill">
-            <div class="skill_level" style="width: 90%">
+            <div class="skill_level" style="width: 80%">
             </div>
           </div>
       </div>
@@ -94,10 +94,66 @@ I build websites.</h1>
         </div>
       </div> 
     </div>
-    <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1">
+    <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1 col-xl-1">
     </div>
+  </div>
+</div>
 
 
+
+
+<div class ="container-fluid bg-orange" id="work">
+  <h1 class="title animated slideInRight about">Work<br><span class="glyphicon glyphicon-minus"></span><br>
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 card">
+    <%= image_tag ("card1.jpg"), :class => "card image"%>
+    <div class="middle">
+    <a href="http://www.chasecontractingltd.com/" target="_blank"><div class="text">Chase Contracting <span class="glyphicon glyphicon-new-window"></span></div></a>
+    </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 card">
+    <%= image_tag ("card2.jpg"), :class => "card image"%>
+     <div class="middle">
+    <a href="https://marineartbydale.com/" target="_blank"><div class="text">Marine Art by Dale <span class="glyphicon glyphicon-new-window"></span></div></a>
+    </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 card">
+    <%= image_tag ("card3.jpg"), :class => "card image"%>
+    <div class="middle">
+    <a href="https://elementalcolour.com/" target="_blank"><div class="text">Elemental Colour <span class="glyphicon glyphicon-new-window"></span></div></a>
+    </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 card">
+    <%= image_tag ("card4.jpg"), :class => "card image"%>
+    <div class="middle">
+    <a href="https://nogungang.com/" target="_blank"><div class="text">No Gun Gang <span class="glyphicon glyphicon-new-window"></span></div></a>
+    </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 card">
+    <%= image_tag ("card5.jpg"), :class => "card image"%>
+     <div class="middle">
+    <a href="www.organic-candy.com" target="_blank"><div class="text">Organic Candy <span class="glyphicon glyphicon-new-window"></span></div></a>
+    </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 card">
+    <%= image_tag ("card6.jpg"), :class => "card image"%>
+    <div class="middle">
+    <a href="http://www.gledstoneupholstery.com/" target="_blank"><div class="text">Gledstone Upholstery <span class="glyphicon glyphicon-new-window"></span></div></a>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<div class ="container-fluid bg-white" id="connect">
+  <h1 class="title animated slideInRight about">Connect & Collaborate<br><span class="glyphicon glyphicon-minus"></span><br>
+  <div class="row">
+
+  <p class="connect-title">Lets grab coffee.</p>
+  <p class="connect-info">stephdacre@gmail.com<br>
+  instagram: thecodingnomad</p>
   </div>
 </div>
 

@@ -1,5 +1,7 @@
 {
   "name": "codingnomad",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "spinkit": "^1.2.5"
+  }
 }

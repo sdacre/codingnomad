@@ -15,19 +15,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap-sprockets
-//= require turbolinks
 //= require_tree .
 //= require particles.js
-
-
-
-
-function hover(element) {
-  element.setAttribute('src', '/code-flower.png');
-}
-
-function unhover(element) {
-  element.setAttribute('src', '/flower.png');
-}
 
 

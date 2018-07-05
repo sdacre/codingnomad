@@ -6,33 +6,16 @@
   }
 
 
-
 /* colors rows */
 
 .bg-orange {
   background-color: #FED99B;
 }
 
-.bg-blue{
-  background-color: #D6EFFF;
-}
-
 .bg-white {
   background-color: white;
   padding-bottom: 100px;
 }
-.title {
-  font-size: 50px;
-  text-align: center;
-  padding-bottom: 80px;
-  padding-top: 50px;
-}
-
-/*allows for bootstrap scrollspy*/
-body {
-  position: relative;
-}
-
 
 .banner {
   position: absolute;
@@ -45,17 +28,29 @@ body {
   font-family: 'EB Garamond', serif;
 }
 
-.about {
-  color: purple;
-}
-
-
 
 body{
   background: white;
 }
-
  
+
+
+
+/* portfolio card styling */
+.card {
+box-sizing: border-box;
+box-shadow: 0 20px 50px rgba(0,0,0,.5);
+max-width:100%;
+max-height:100%;
+
+}
+
+.card img {
+  padding-top: 15px;
+}
+
+
+/* skillbox styling */
 
 .row-skills {
   font-family: 'EB Garamond', serif;
@@ -77,19 +72,6 @@ body{
   text-transform: uppercase;
   letter-spacing: 2px;
 
-}
-
-.card {
-
-box-sizing: border-box;
-box-shadow: 0 20px 50px rgba(0,0,0,.5);
-max-width:100%;
-max-height:100%;
-
-}
-
-.card img {
-  padding-top: 15px;
 }
 .skillBox {
   box-sizing: border-box;
@@ -126,14 +108,15 @@ max-height:100%;
   height: 10px;
 }
 
-
-
-.profile-text {
-
+/* about row styling */
+.profile-desc {
   padding: 20px;
   font-size: 23px;
 }
 
+ .profile-title {
+  font-size: 70px;
+ }
 
 
 .profile {
@@ -143,15 +126,17 @@ max-height:100%;
   width: 300px;
 }
 
-.icon:hover {
-    -webkit-animation: bounce 1s;
-    animation: bounce 1s;
-}
- .profile-title {
-  color: purple;
-  font-size: 70px;
- }
+.profile-icon{
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
 
+}
+
+.icon:hover {
+    -webkit-animation: rubberBand 1s;
+    animation: rubberBand 1s;
+}
 
 .underline--magical {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
@@ -199,20 +184,93 @@ max-height:100%;
   padding: 16px 32px;
 }
 
-
+/* connect row styling */
  .connect-title {
-  font-size: 70px;
+  font-size: 40px;
  }
 
+ .title {
+  font-size: 50px;
+  width: 100px;
+  height: 100px;
+  padding-top: 50px;
+  color: purple;
+}
+
+.section-info {
+  padding-top: 50px;
+}
 
 .connect-info {
-  font-size: 23px;
-  text-align: center;
+  font-size: 25px;
+}
 
+.collab {
+  font-size: 50px;
+}
+
+.bigger { font-size:200%; }
+.collab:hover {
+    -webkit-animation: rubberBand 1s;
+    animation: rubberBand 1s;
 }
 
 
 
 
+/* spin title styling */
+.spin {
+  animation-name: spin-me;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  font-size: 50px;
+  font-color: black;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
 
+@keyframes spin-me {
+0% {
+  transform: rotate3d(0,1,.4,-180deg);
+}
+50% {
+  transform: rotate3d(0,1,.4,0deg);
+}
+100% {
+  transform: rotate3d(0,1,.4,180deg);
+}
+}
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html, body {
+  height:100%;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 55px auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #101010;
+}
+
+
+.container .credit {
+  margin: 20px 0;
+  text-align: center;
+}
 

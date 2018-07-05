@@ -1,13 +1,6 @@
-var img = document.getElementById('flower');
-
-img.onmouseout = function () {
-   this.src = 'flower.jpeg';
-};
-
-img.onmouseover = function () {
-   this.src = 'code-flower.jpeg';
-};
-
+$( document ).ready(function() {
+    console.log( "ready!" );
+});
 
 
 // VARIABLES
@@ -58,10 +51,5 @@ const applyGradient = async(url, callback) => {
 
 // RESULT
 applyGradient(gradientAPI, addBackgroundToUnderlines);
-
-
-
-
 //end card js
-
 

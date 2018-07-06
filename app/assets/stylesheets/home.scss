@@ -275,3 +275,7 @@ html, body {
   text-align: center;
 }
 
+.navbar-nav {
+  -webkit-backface-visibility: hidden;
+}
+

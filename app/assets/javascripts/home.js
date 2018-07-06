@@ -53,3 +53,4 @@ const applyGradient = async(url, callback) => {
 applyGradient(gradientAPI, addBackgroundToUnderlines);
 //end card js
 
+

@@ -113,7 +113,7 @@ max-height:100%;
 }
 
 .profile-title {
-  font-size: 70px;
+  font-size: 50px;
 }
 
 .profile {
@@ -130,11 +130,10 @@ max-height:100%;
 
 }
 
-/*.icon:hover {
-    -webkit-animation: rubberBand 1s;
+.icon:hover {
     animation: rubberBand 1s;
 }
-*/
+
 .underline--magical {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   background-repeat: no-repeat;
@@ -187,7 +186,7 @@ max-height:100%;
  }
 
  .title {
-  font-size: 70px;
+  font-size: 50px;
   padding-top: 50px;
   color: purple;
   text-align: center;

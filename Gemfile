@@ -15,6 +15,7 @@ gem 'bootstrap-sass'
 gem 'bootstrap'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
+gem 'loading_screen', '~> 0.2.3'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 

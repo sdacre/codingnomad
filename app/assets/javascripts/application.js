@@ -16,6 +16,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap-sprockets
+//= require loading_screen
 //= require_tree .
 
 

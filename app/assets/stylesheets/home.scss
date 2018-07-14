@@ -28,8 +28,27 @@ body {
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
-  font-size: 50px;
+  font-size: 16px;
   font-family: 'EB Garamond', serif;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .banner {font-size: 20px;}
+} 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .banner {font-size: 30px;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .banner {font-size: 50px;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .banner {font-size: 50px;}
 }
 
 /* portfolio card styling */

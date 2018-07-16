@@ -33,3 +33,6 @@
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
+#ignore sitemap file in git commit
+/config/sitemap.rb 

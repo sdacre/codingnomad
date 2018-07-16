@@ -36,3 +36,4 @@
 
 #ignore sitemap file in git commit
 /config/sitemap.rb 
+public/sitemap.xml.gz
